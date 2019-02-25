@@ -6,7 +6,7 @@ namespace ClassWork__1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Введите свое имя");
+            Console.Write("Введите имя : ");
             string name = Console.ReadLine();
             Thread.Sleep(5000);
             Console.WriteLine($"Привет {name}");
