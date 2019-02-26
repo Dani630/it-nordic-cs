@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="C:\Users\Ракета\Desktop\it-nordic-cs\01\HomeWork_Calculator.cs" Link="HomeWork_Calculator.cs" />
+  </ItemGroup>
+
+</Project>
