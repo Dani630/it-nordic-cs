@@ -20,10 +20,8 @@ namespace Calculator
                     {
                         Console.ForegroundColor = ConsoleColor.DarkGreen;
                         num_1 = Convert.ToDouble(Console.ReadLine());        
-                        if (num_1 is double)
-                        {
                             break;
-                        }
+                        
                     }
                     catch
                     {
@@ -65,10 +63,8 @@ namespace Calculator
                     {
                         Console.ForegroundColor = ConsoleColor.DarkGreen;
                         num_2 = Convert.ToDouble(Console.ReadLine());
-                        if (num_2 is double)
-                        {
                             break;
-                        }
+                        
                     }
                     catch
                     {
