@@ -1,132 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace ClassWork_5
+namespace HomeWork_6_Colors
 {
     class Program
     {
         static void Main(string[] args)
         {
-            /* 
-             List<string> nums = new List<string>
-             {
-                 "Black",
-                 "Blue",
-                 "Cyan",
-                 "Grey",
-                 "Green"
-             };
-             string[] nams_2 = new string[4];
-             Console.WriteLine("Введите 4 цвета в палитру .");
-             int qwer = 3;
-             string num_1 = "О";
-             //bool qw = true;
-             for (int i = 0; i < 4; i++)
-             {
-                 Console.Write("Ввод : ");
-                 num_1 = Console.ReadLine();
-                 /*while (qw == true)
-                {
-
-                     for (int p = 0; p < nums.Count; p++)
-                     {
-                         if (num_1 != nums[p])
-                         {
-                             qwer = qwer + 1;
-                             Console.WriteLine("Ошибка");
-                         }
-                         else if (num_1 == nums[p])
-                         {
-                             qw = false;
-                         }
-                     }
-                 }
-                 for (int o = 0; o < 5; o++)
-                 {
-
-                     if (num_1 == nums[o])
-                     {
-                         nams_2[i] = Convert.ToString(num_1);
-                         nums.RemoveAt(i);
-                     }
-                     else if (num_1 != nums[o])
-                     {
-                        qwer = qwer + 1;
-                     }
-                 }
-             }
-             Console.WriteLine("Набор цветов : \n");
-             foreach (string numss in nums)
-               {
-                  Console.WriteLine(numss);
-               }
-             foreach (string numsss in nams_2)
-             {
-                 Console.WriteLine(numsss);
-             }
-
-
-             List<string> nums = new List<string>
-             {
-                 "1",
-                 "2",
-                 "3",
-                 "4",
-                 "5",
-                 "6"
-             };
-             */
-
-
-
-
-
-
-
-
-
-
-
-            /*
- 
-                        
-
-
-
-
-
-
-
-
-            Console.Write("Введите число : ");
-            int i = Convert.ToInt32(Console.ReadLine());
-            if (i < 0)
-                Console.WriteLine($"Число {i} отрицательное");
-            else if (i > 0)
-                Console.WriteLine($"Число {i} неотрицательное");
-
-
-
-
-            Console.Write("Введите число : ");
-            int i = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine($"Число " + (i > 0) ? "Число положительное" : "Число отрицательное");
-            
-
-
-
-
-
-
-
-
-    */
-
-
-
-
-
-            
             string colors;
             List<string> color = new List<string>
                         {
@@ -156,7 +36,7 @@ namespace ClassWork_5
                             color_vvod.Add(color[i]);
                             color[i] = null;
                         }
-                        
+
                     }
                     if (color_vvod.Count == 4)
                     {
@@ -213,6 +93,7 @@ namespace ClassWork_5
             }
             Console.ResetColor();
             Console.WriteLine("\n\n");
+
         }
     }
 }
