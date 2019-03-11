@@ -78,6 +78,11 @@ namespace Home_Work_5
                             Console.ResetColor();
                         }
                     }
+                    result = (Math.Sqrt(num_1) / 4) * (num_1 * num_1);
+                    result_2 = num_1 * 3;
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.WriteLine($"\n\nПлощадь : {result} \n\nПеримитр : {result_2}\n\n");
+                    Console.ResetColor();
                     break;
                 case "3":
                     Console.Write("\nВведите ширину : ");
@@ -119,6 +124,7 @@ namespace Home_Work_5
                     Console.ForegroundColor = ConsoleColor.Green;
                     result = 2 * (num_1 + num_2);
                     Console.WriteLine($"Периметр : {result}\n\n");
+                    Console.ResetColor();
                     break;
                     
             }
