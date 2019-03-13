@@ -8,7 +8,7 @@ namespace HomeWork_6_Colors
         static void Main(string[] args)
         {
             string colors;
-            List<string> color = new List<string>
+            List<string> color = new List<string>(8)
                         {
                             "DarkRed",
                             "Gray",
@@ -16,7 +16,8 @@ namespace HomeWork_6_Colors
                             "Red",
                             "Cyan",
                             "Yellow",
-                            "White"
+                            "White",
+                            "1"
                         };
             List<string> color_vvod = new List<string> { };
             List<string> color_out = new List<string> { };
@@ -52,7 +53,7 @@ namespace HomeWork_6_Colors
                     {
                         if (color[i] != color_vvod[o])
                         {
-                            color_out.Add(color[i]);
+                            color_out.Add(color[i]); 
                             color[i] = null;
                         }
                     }
