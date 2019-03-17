@@ -38,6 +38,7 @@ namespace ClassWork_7
             */
 
             //Split    Разделения на массив символов
+            //string test = "Привте";
             //string[] words = test.Split((char[].nulll , StringSplit))
 
             /*
