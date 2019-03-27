@@ -57,7 +57,14 @@ namespace ClassWork_7
             // join           собирает
 
 
-                                                       ////     CNRL + R    ///// 
+            ////     CNRL + R    ///// 
+            ///
+
+            string name = "1234";
+            if (name.Contains("23"))
+            {
+                Console.WriteLine("qwee");
+            }
         }
     }
 }
