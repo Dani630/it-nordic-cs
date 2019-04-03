@@ -29,10 +29,9 @@ namespace HomeWork_12
 			*/
 			var arr = new BaseDocument[4];
 			arr[0] = new BaseDocument("Qwe", "21", DateTimeOffset.Parse("2019-02-10"));
-			arr[1] = new Passport("21" , "31" , DateTimeOffset.Parse());
+			arr[3] = new Passport("54", DateTimeOffset.Parse("2019-04-12"), "32", "43");
+			arr[1] = new Passport("21" , DateTimeOffset.Parse("2019-02-10") , "23" , "42");
 			arr[2] = new BaseDocument("Qwe", "21", DateTimeOffset.Parse("2019-02-10"));
-			arr[3] = new Passport("54", "54");
-			//	arr[2] = new Passport("Qwe", "21", DateTimeOffset.Parse("2019-02-10"));
 
 			foreach (var s in arr)
 			{
