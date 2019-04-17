@@ -4,13 +4,57 @@ namespace ClassWork_15
 {
 	class Program
 	{
+		public delegate double DoCalculator (double number); 
+
 		static void Main(string[] args)
 		{
-			
-			
+			Circle circle = new Circle(12);
+			DoCalculator Perimeter = (double num) => num * (2 * Math.PI);
+			Console.WriteLine(Perimeter(circle._radius));
+			DoCalculator Square = (double num) => Math.Pow(2, num) * Math.PI;
+			Console.WriteLine(Square(circle._radius));
 		}
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

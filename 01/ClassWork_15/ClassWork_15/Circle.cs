@@ -6,7 +6,7 @@ namespace ClassWork_15
 {
 	public sealed class Circle
 	{
-		private double _radius;
+	    public double _radius;
 
 		public Circle (double radius)
 		{

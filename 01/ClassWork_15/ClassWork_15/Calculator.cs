@@ -8,12 +8,12 @@ namespace ClassWork_15
 	{
 		static double Square (double num)
 		{
-			return num * Math.PI;
+			return Math.Pow(2 , num) * Math.PI;
 		}
 
 		static double Perimeter (double num)
 		{
-			return num *  Math.PI;
+			return num *  (2 * Math.PI);
 		}
 	}
 }
